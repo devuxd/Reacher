@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/91/trunk/CrystalPlugin/schema
+END
+CrystalAnalysis.exsd
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/CrystalPlugin/schema/CrystalAnalysis.exsd
+END
+CrystalAnnotation.exsd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/91/trunk/CrystalPlugin/schema/CrystalAnnotation.exsd
+END

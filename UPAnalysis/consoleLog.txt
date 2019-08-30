@@ -1,0 +1,7 @@
+Bad level value for property: .level
+Oct 1, 2009 8:21:05 PM edu.cmu.cs.crystal.CrystalPlugin setupCrystalAnalyses
+INFO: CrystalPlugin::setupCrystalAnalyses() Begin
+Oct 1, 2009 8:21:05 PM edu.cmu.cs.crystal.CrystalPlugin setupCrystalAnalyses
+INFO: CrystalPlugin::setupCrystalAnalyses() End
+Oct 1, 2009 8:21:05 PM edu.cmu.cs.crystal.internal.AbstractCrystalPlugin start
+CONFIG: Registering analysis extension: AliasingStmtBuilder

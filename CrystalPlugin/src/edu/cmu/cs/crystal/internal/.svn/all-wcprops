@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/322/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal
+END
+ICrystalJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/133/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/ICrystalJob.java
+END
+ShortFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/318/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/ShortFormatter.java
+END
+CrystalRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/CrystalRuntimeException.java
+END
+ControlFlowNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/ControlFlowNode.java
+END
+EnableAnalysisHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/EnableAnalysisHandler.java
+END
+CrystalPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/CrystalPlugin.java
+END
+CrystalFileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/CrystalFileAction.java
+END
+AbstractCrystalPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/259/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/AbstractCrystalPlugin.java
+END
+AnalysisMenuPopulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/AnalysisMenuPopulator.java
+END
+ControlFlowVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/222/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/ControlFlowVisitor.java
+END
+ControlFlowGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/ControlFlowGraph.java
+END
+CrystalPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/259/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/CrystalPreferences.java
+END
+DisplayCrystalInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/DisplayCrystalInfo.java
+END
+CrystalUIAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/257/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/CrystalUIAction.java
+END
+RunCrystalHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/RunCrystalHandler.java
+END
+RunCrystalOnCurrentFileHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/322/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/RunCrystalOnCurrentFileHandler.java
+END
+ClearWarningHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/ClearWarningHandler.java
+END
+StandardAnalysisReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/320/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/StandardAnalysisReporter.java
+END
+NullPrintWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/63/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/NullPrintWriter.java
+END
+ISingleCrystalJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/222/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/ISingleCrystalJob.java
+END
+Crystal.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/317/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/Crystal.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/223/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/package-info.java
+END
+WorkspaceUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/272/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/WorkspaceUtilities.java
+END
+StudentRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/StudentRuntimeException.java
+END
+UserConsoleView.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/62/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/internal/UserConsoleView.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/74/trunk/PlaidAnnotations/crystal/edu/cmu/cs/crystal/annotations
+END
+MultiAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/PlaidAnnotations/crystal/edu/cmu/cs/crystal/annotations/MultiAnnotation.java
+END
+UseAnalyses.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/PlaidAnnotations/crystal/edu/cmu/cs/crystal/annotations/UseAnalyses.java
+END
+FailingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/74/trunk/PlaidAnnotations/crystal/edu/cmu/cs/crystal/annotations/FailingTest.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/37/trunk/PlaidAnnotations/crystal/edu/cmu/cs/crystal/annotations/package-info.java
+END
+AnalysisTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/74/trunk/PlaidAnnotations/crystal/edu/cmu/cs/crystal/annotations/AnalysisTests.java
+END
+PassingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/74/trunk/PlaidAnnotations/crystal/edu/cmu/cs/crystal/annotations/PassingTest.java
+END

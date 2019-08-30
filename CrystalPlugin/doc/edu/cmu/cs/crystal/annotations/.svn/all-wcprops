@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/269/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations
+END
+MultiAnnotation.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/269/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/MultiAnnotation.html
+END
+UseAnalyses.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/269/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/UseAnalyses.html
+END
+AnnotationSummary.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/AnnotationSummary.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/package-frame.html
+END
+FailingTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/269/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/FailingTest.html
+END
+CrystalAnnotation.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/CrystalAnnotation.html
+END
+AnnotationFinder.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/AnnotationFinder.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/package-tree.html
+END
+PassingTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/269/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/PassingTest.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/package-summary.html
+END
+ICrystalAnnotation.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/ICrystalAnnotation.html
+END
+AnnotationDatabase.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/annotations/AnnotationDatabase.html
+END

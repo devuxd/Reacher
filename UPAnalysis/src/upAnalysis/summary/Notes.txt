@@ -1,0 +1,237 @@
+Design will be to keep the modular analysis here and put everything else in my other
+project.  So output of this will be a bunch of summaries (expressed in types defined here)
+which are then used for the interprocedural querying part in my other project.
+
+
+Scenario 1 - User selects a context and says show all callees
+We look up the appropriate MethodExecution from the visualizatoin of it.  
+
+
+
+
+
+Scenario 2 - User selects two contexts and says show all calls between them
+
+
+
+Scenario 3 - User selects a method in Eclipse and says show
+
+
+
+
+Scenario 4 - User selects a context, says show all callees, and the callee graph has cycles
+
+
+
+Scenario 5 - Filtering up to a specific distance
+
+
+
+Scenario 6 - Popup for showing all trigger paths, selecting a particular trigger path
+
+
+
+	/**
+	 * Example: {x, y} is LESS PRECISE than {x}
+	 * Therefore: {x}.atLeastAsPrecise({x, y}) = true
+	 * Therefore: {x}.atLeastAsPrecise({x}) = true
+	 * Therefore: {x, y}.atLeastAsPrecise({x}) = false
+	 * @param other
+	 * @return
+	 */
+
+F:\Code\DesignMap\Scratch\CrystalTest\test\lastrun>"C:\Program Files\Graphviz2.1
+6\bin"\dot.exe -Tgif -oWhileLoop.gif ReturnTests_returnInLoop.dot
+
+
+Technical Notes
+1. It is actually unsound to not run through ALL callees of a method execution whenever we show it.
+Because it could effect fields read downstream, we need to always build out all of the contexts...
+
+
+
+/*  We have 2 separate problems. 1) we have multiple paths all matching the same summary node, resulting in adding a stmt more than once.
+ * 2) we have statements that are slightly different on each of these paths that we have to merge - e.g., method calls with different values
+ * for their parameters.
+ * Things we need to merge:
+ * 	     multiple copies of a method call with the same AST - need to join all of the args and receiver
+ *      multipe field reads / writes with the same AST
+ *      multiple returns, regardless of whether they have the same AST
+ *      
+ *  One design
+ *      We could join all of the paths together that apply to a particular summary node.  This would eliminate problems of type 1 and type 2, 
+ *      unless we see these calls again nested as args / receivers.  But if we're sure that we hit them all where ops are built, rather than 
+ *      where their data is consumed, we can ignore this problem by never adding them when they are consumed ( we do this already).
+ *      But this design would have the advantage of not having to reimplement joins on ResolvedSources.
+ *      join our resolved sources, but just being able to rely on join for lattice elements.  We need to be more precise in how we are joining
+ *      LE elements with similar sources, but this is useful to do anyway.
+ * 
+ *      Returns we can deal with specially - propogate them down to leaf summaryNodes and join the return by hand (simpler join) if we
+ *      already have a return when we try to add another one.
+ * 
+ */
+
+
+Design Notes
+1. Layout - At the moment, we only support a single tree.  We also need to decide whether we need to 
+relayout the whole tree whenever a method changes width or height (e.g., by renaming or showing a 
+field write).  At any rate, each context should know it's width and height (computed by figuring
+out things like fields being shown).  And then based on each contexts width and height, 
+we can do things like find the width of a column and group things up into blocks.
+
+
+ANALYSIS TODO
+returns
+this
+static fields
+nested methods
+switch
+instanceof
+enums
+int constants
+try/catch
+intraprocedural aliasing
+
+
+
+Interprocedural Analysis
+The correct thing to do is to 
+
+
+DEPENDENT VARIABLES
+paths / method (experiment 1)
+
+
+
+EXPERIMENT 1 - Effects of path sensitivity
+We build summaries for all methods in a corpus of applications.  We can then look at the distrubution
+of paths / method for the path sensitivie and not completely path sensitive case.  Maybe plot both
+curves on the same graph.
+
+We also might want to look at the reason for these differences - in what cases can we not resolve
+paths and what are these?
+
+EXPERIMENT 2 - How often can we interprocedurally resolve constraints
+We need to have a corpus of sample queries to try.  Using this corpus, we run the summary producing
+code and the interprocedural analysis to determine how how many of the paths we are able to resolve.
+This number is probably usually pretty low? - normally we have to report the union of all things the method
+could possible do?  So what is the benefit of our analysis?
+
+
+EXPERIMENT 3 - Arithmetic does not determine path feasibility
+We need to determine how many effects (method call or field writes) depend on arithmetic.  This
+number might be biased by having some of these method call effects be idempotent.  So it might make more
+sense to simplify the counting and just count how many field writes or external framework method
+calls occur who's control flow depends on arithmetic.  But isn't this slicing?  And why hasn't the slicing community
+already answered this question?
+
+
+
+
+
+Other interesting design tidbit.  Super calls and constructor calls do not have target vars.  So we make up a target var for
+them (a dummy var) so that, even though we don't use this info later, it keeps path's identity defined in terms only
+of the tuple of target facts and the path constraints. If we didn't have this in there, this would make our atleastasprecise
+and other functions more complicated.
+
+
+
+
+We can see forks on sources before we see the sources themselves.  This happens when a loop propogates
+this infomration back up to the top and we do not yet have results for this. 
+
+Rule 1 - we only fork on sources we have already seen.  So if we have not yet seen a source, we do not fork on it.
+This works for field reads, method calls, etc. But it does NOT work for params.  We could have someobdy randomly write
+to a param later, get this information back, and not have the right information?  But once somebody writes to a param,
+
+
+while (*)
+{
+    param = foo();
+    if (param)
+    	
+
+
+}
+This is an interesting example but still ok.  The key here is param is not *really* a param anymore. It is just
+a plain old variable carrying around a foo source.  So we would fork on foo and p0 would never have anything to do
+with this.  This is good - params can never really change their value because they are sources.  There are just
+variable carriers which happen to carry this around.
+
+		v = true;
+
+		while (foo(v))
+		{
+			if (param)
+				return;
+			v = baz();
+		}
+		
+		bar();
+
+It should always be the case that v is TOP.  We need to execute foo, but we need to make sure that we do the joins right so that v is top.
+Otherwise, we would be using the source v before we've executed it.  And we can't execute it then because it might itself have sources that 
+have not yet been resolved.  But it isn't. Since we fork going through the loop, the path that has never been through the loo
+is never merged with these paths.  So this path stays true.  But is this really a problem?
+
+
+
+
+
+Rule 2 - we get rid of redundant forks.  We do not add a fork if both sides of the fork would have equal stmts.
+To do this, we need to implement another set of equality for stmts.  This is better than doing equality on sources - the
+sources just have vars for their args that have not yet been resolved, so we do not always have good equality info.
+But we also need to be careful with joining two different calls in different branches of an if. And once we join the calls,
+need to be sure that whenever we see a resolved source later it is hooked up to the right stmt.
+
+
+TODO: we need make sure we resolve predicates used as params before being used.  Or we could just resolve
+them in the execution part.
+
+
+
+
+
+
+TODO: think about how writing to a param works - we need to get the fork order in the right place!
+
+
+
+
+Properties of our transformation that we care about - could characterize how our algorithm works and think about
+proofs of some properties if we wanted to go there.
+-Order preserving - our summary should execute stmts in whatever order they are FIRST executed in the original
+source
+-Sound??? - if there may be a call in the original source, there is a call in the stmt - need to think about
+in what cases we can break soundness with loops going backwards.  Can this ever happen?  When?
+-Precise - we do not report calls that cannot happen - what can we say about this?
+-Compact - we prune out some useless branches in the summary. This helps increase the amount of summary reuse
+we get in the next phase - the more often we are able to hit the same path through the summary, the more often
+we can get the same path to execute.
+
+
+===================================================================================
+5/1/08 - Thoughts on how to reduce the 1500 summaries we are generating on a View method
+
+-First we should try indexing all of the collections when we are building the summaries.  We spend longer building the summary
+than doing the dataflow analysis.  But even the dataflow analysis is way too slow.
+
+When we have ands and ors in a guard and we never store the outcome, we should join all of the paths into 2 outcome paths 
+- those that go into the loop and those that don't.  But we still need the forks in the middle to 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

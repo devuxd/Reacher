@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/317/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/annotations
+END
+ICrystalAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/179/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/annotations/ICrystalAnnotation.java
+END
+AnnotationDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/270/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/annotations/AnnotationDatabase.java
+END
+AnnotationSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/195/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/annotations/AnnotationSummary.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/223/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/annotations/package-info.java
+END
+CrystalAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/179/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/annotations/CrystalAnnotation.java
+END

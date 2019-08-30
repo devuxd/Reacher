@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/simple
+END
+SimpleLatticeOperations.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/simple/SimpleLatticeOperations.java
+END
+TupleLatticeElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/simple/TupleLatticeElement.java
+END
+SimpleTACFlowAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/225/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/simple/SimpleTACFlowAnalysis.java
+END
+TupleLatticeOperations.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/190/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/simple/TupleLatticeOperations.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/178/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/simple/package-info.java
+END
+AbstractingTransferFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/simple/AbstractingTransferFunction.java
+END

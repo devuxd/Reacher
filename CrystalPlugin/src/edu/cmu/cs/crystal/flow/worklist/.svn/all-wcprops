@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist
+END
+BranchInsensitiveWorklist.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/260/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/BranchInsensitiveWorklist.java
+END
+WorklistFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/WorklistFactory.java
+END
+AnalysisResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/AnalysisResult.java
+END
+WorklistTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/WorklistTemplate.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/223/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/package-info.java
+END
+BranchSensitiveWorklist.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/260/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/BranchSensitiveWorklist.java
+END
+WorklistNodeOrderComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/163/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/WorklistNodeOrderComparator.java
+END
+AbstractWorklist.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/163/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/flow/worklist/AbstractWorklist.java
+END

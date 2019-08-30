@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/74/trunk/PlaidAnnotations
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/33/trunk/PlaidAnnotations/LICENSE.txt
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/73/trunk/PlaidAnnotations/build.properties
+END
+plaid-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/74/trunk/PlaidAnnotations/plaid-annotations.jar
+END
+regex-copyright-notice.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/33/trunk/PlaidAnnotations/regex-copyright-notice.txt
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/PlaidAnnotations/.project
+END
+java-copyright-notice.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/33/trunk/PlaidAnnotations/java-copyright-notice.txt
+END
+plugin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/14/trunk/PlaidAnnotations/plugin.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/57/trunk/PlaidAnnotations/.classpath
+END

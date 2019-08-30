@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="upAnalysis/interprocedural/traces/filtered/FilteredMethodTrace.java|upAnalysis/interprocedural/traces/LuceneTraceSearcher.java|upAnalysis/interprocedural/traces/TrieTraceSearcher.java|upAnalysis/summary/summaryBuilder/StatementListMethodSummary.java|upAnalysis/utils/FractionOld.java|upAnalysis/interprocedural/traces/LuceneTraceIndex.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins">
+		<accessrules>
+			<accessrule kind="accessible" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="hsqldb.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

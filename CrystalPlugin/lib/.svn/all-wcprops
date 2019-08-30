@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/22/trunk/CrystalPlugin/lib
+END
+analysis-writer-logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/22/trunk/CrystalPlugin/lib/analysis-writer-logging.properties
+END
+regression-logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/CrystalPlugin/lib/regression-logging.properties
+END

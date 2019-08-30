@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/61/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot
+END
+Perm.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Perm.java
+END
+Full.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Full.java
+END
+Apply.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Apply.java
+END
+Param.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Param.java
+END
+TrueIndicates.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/TrueIndicates.java
+END
+ResultImm.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ResultImm.java
+END
+Imm.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Imm.java
+END
+Release.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Release.java
+END
+Use.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/37/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Use.java
+END
+ForcePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/56/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ForcePack.java
+END
+Cases.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Cases.java
+END
+NoEffects.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/NoEffects.java
+END
+Exact.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/60/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Exact.java
+END
+ResultPolyVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/60/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ResultPolyVar.java
+END
+Range.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Range.java
+END
+Pures.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Pures.java
+END
+PolyVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/60/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/PolyVar.java
+END
+ClassStates.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ClassStates.java
+END
+FalseIndicates.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/6/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/FalseIndicates.java
+END
+Symmetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/60/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Symmetric.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/6/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/package-info.java
+END
+ResultPure.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ResultPure.java
+END
+Lend.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Lend.java
+END
+ResultUnique.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ResultUnique.java
+END
+Refine.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Refine.java
+END
+ResultFull.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ResultFull.java
+END
+Similar.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/60/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Similar.java
+END
+Imms.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Imms.java
+END
+IsResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/IsResult.java
+END
+Capture.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Capture.java
+END
+Params.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/46/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Params.java
+END
+In.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/48/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/In.java
+END
+Fulls.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Fulls.java
+END
+ResultShare.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ResultShare.java
+END
+States.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/54/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/States.java
+END
+Uniques.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Uniques.java
+END
+PluralAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/45/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/PluralAnalysis.java
+END
+NonReentrant.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/NonReentrant.java
+END
+Share.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Share.java
+END
+Pure.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Pure.java
+END
+Shares.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Shares.java
+END
+ApplyToSuper.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/61/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ApplyToSuper.java
+END
+Unique.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/56/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/Unique.java
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/42/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/State.java
+END
+ResultApply.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/61/trunk/PlaidAnnotations/plural/edu/cmu/cs/plural/annot/ResultApply.java
+END

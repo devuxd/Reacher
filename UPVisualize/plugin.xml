@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="edu.cmu.cs.crystal.CrystalAnalysis">
+      <analysis
+            class="upAnalysis.cha.CallCollectorAnalysis"
+            name="Call analysis">
+      </analysis>
+      <analysis
+            class="upAnalysis.summary.DFAnalysis"
+            name="Data flow analysis">
+      </analysis>
+      <analysis
+            class="upAnalysis.summary.InstrListAnalysis"
+            name="InstrListAnalysis">
+      </analysis>
+      <analysis
+            class="edu.cmu.cs.crystal.analysis.live.LiveVariableAnalysis"
+            name="Live variable analysis">
+      </analysis>
+      <analysis
+            class="upAnalysis.summary.UPAnalysis"
+            name="UP Analysis">
+      </analysis>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="UPVisualize.contribution1"
+            objectClass="org.eclipse.jdt.core.IMethod">
+         <menu
+               id="UPVisualize.menu1"
+               label="Reacher"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="upvisualize.plugin.DownstreamSearchAction"
+               enablesFor="1"
+               id="UPVisualize.downstreamSearhAction"
+               label="Search downstream from this method"
+               menubarPath="UPVisualize.menu1/group1">
+         </action>
+         <action
+               class="upvisualize.plugin.UpstreamSearchAction"
+               enablesFor="1"
+               id="UPVisualize.upstreamSearchAction"
+               label="Search upstream from this method"
+               menubarPath="UPVisualize.menu1/group1">
+         </action>
+      </objectContribution>
+      <viewerContribution
+            id="UPVisualize.viewerContribution1"
+            targetID="#CompilationUnitEditorContext">
+         <menu
+               id="UPVisualize.menu2"
+               label="Reacher"
+               path="additions">
+            <separator
+                  name="group2">
+            </separator>
+         </menu>
+         <action
+               class="upvisualize.plugin.DownstreamSearchEditorAction"
+               enablesFor="*"
+               id="UPVisualize.newAction1"
+               label="Search downstream from this method"
+               menubarPath="UPVisualize.menu2/group2">
+         </action>
+         <action
+               class="upvisualize.plugin.UpstreamSearchEditorAction"
+               enablesFor="*"
+               id="UPVisualize.newAction3"
+               label="Search upstream from this method"
+               menubarPath="UPVisualize.menu2/group2">
+         </action>
+      </viewerContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="CrystalPlugin.crystalcategory"
+            defaultHandler="upvisualize.plugin.RunExperimentsHandler"
+            description="Run experiments"
+            id="UPVisualize.runExperiments"
+            name="Run experiments">
+      </command>
+      <command
+            categoryId="CrystalPlugin.crystalcategory"
+            defaultHandler="upvisualize.plugin.LoadSummariesHandler"
+            description="Load summaries"
+            id="UPVisualize.loadSummaries"
+            name="Load summaries">
+      </command>
+      <command
+            categoryId="CrystalPlugin.crystalcategory"
+            defaultHandler="upvisualize.plugin.RebuildSummariesHandler"
+            description="Rebuild summaries"
+            id="UPVisualize.rebuildSummaries"
+            name="Rebuild summaries">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="MainReacherMenu"
+               label="Reacher">
+            <command
+                  commandId="UPVisualize.runExperiments"
+                  label="Run experiments"
+                  style="push"
+                  tooltip="Run all of the Reacher experiments">
+            </command>
+            <command
+                  commandId="UPVisualize.loadSummaries"
+                  label="Load summaries"
+                  style="push"
+                  tooltip="Loads or creates summaries for all methods">
+            </command>
+            <command
+                  commandId="UPVisualize.rebuildSummaries"
+                  label="Rebuild summaries"
+                  style="push"
+                  tooltip="Deletes and recreates summaries for all methods">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               id="upvisualize.views.ReacherSearchView"
+               ratio="0.5"
+               relationship="right"
+               relative="org.eclipse.ui.views.ContentOutline">
+         </view>
+         <view
+               id="upvisualize.views.ReacherView"
+               ratio="0.5"
+               relationship="right"
+               relative="org.eclipse.ui.views.TaskList">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="Reacher"
+            name="Reacher">
+      </category>
+      <view
+            allowMultiple="false"
+            category="Reacher"
+            class="upvisualize.plugin.ReacherView"
+            icon="icons/sample.gif"
+            id="upvisualize.views.ReacherView"
+            name="Reacher">
+      </view>
+      <view
+            allowMultiple="false"
+            category="Reacher"
+            class="upvisualize.plugin.ReacherSearchView"
+            icon="icons/sample.gif"
+            id="upvisualize.views.ReacherSearchView"
+            name="Reacher Search"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>

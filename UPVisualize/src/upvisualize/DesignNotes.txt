@@ -1,0 +1,13 @@
+
+
+We have an abstract trace tree that we have to construct a mapping to Nodes for which will then be mapped to VisualItems. 
+We basically need to have something that creates a node for every abstract trace item. And there needs to be some way to figure out
+from the node what the underlying abstract trace item is for asking queries about what things exist.
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use
+END
+ICrystalAnalysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use/ICrystalAnalysis.html
+END
+IRunCrystalCommand.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use/IRunCrystalCommand.html
+END
+IAnalysisReporter.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use/IAnalysisReporter.html
+END
+IAnalysisInput.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use/IAnalysisInput.html
+END
+IAnalysisReporter.SEVERITY.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use/IAnalysisReporter.SEVERITY.html
+END
+AbstractCompilationUnitAnalysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use/AbstractCompilationUnitAnalysis.html
+END
+AbstractCrystalMethodAnalysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/class-use/AbstractCrystalMethodAnalysis.html
+END

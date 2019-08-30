@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UPVisualize Plug-in
+Bundle-SymbolicName: UPVisualize;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: upvisualize.plugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt,
+ org.eclipse.jdt.core,
+ UPAnalysis,
+ prefuse_plugin,
+ org.eclipse.jdt.ui,
+ org.eclipse.core.resources,
+ edu.cmu.cs.crystal,
+ org.eclipse.jface.text
+Eclipse-LazyStart: true
+Import-Package: org.eclipse.ui.texteditor

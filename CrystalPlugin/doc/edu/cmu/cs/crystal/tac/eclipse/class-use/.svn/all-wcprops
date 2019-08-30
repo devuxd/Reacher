@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use
+END
+EclipseAbstractFieldAccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseAbstractFieldAccess.html
+END
+EclipseTACSimpleTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACSimpleTest.html
+END
+EclipseImplicitFieldAccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseImplicitFieldAccess.html
+END
+EclipseTAC.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTAC.html
+END
+IEclipseVariableQuery.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/IEclipseVariableQuery.html
+END
+EclipseTACFieldInitTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACFieldInitTest.html
+END
+EclipseTACInstructionFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACInstructionFactory.html
+END
+EclipseSuperFieldAccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseSuperFieldAccess.html
+END
+EclipseInstructionSequence.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseInstructionSequence.html
+END
+EclipseFieldDeclaration.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseFieldDeclaration.html
+END
+EclipseTACTestRunAnalysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACTestRunAnalysis.html
+END
+CompilationUnitTACs.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/CompilationUnitTACs.html
+END
+EclipseTACNewObjectTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACNewObjectTest.html
+END
+EclipseBrokenFieldAccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseBrokenFieldAccess.html
+END
+IEclipseFieldAccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/IEclipseFieldAccess.html
+END
+EclipseTACTargetSelectionTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACTargetSelectionTest.html
+END
+ReturnInstructionImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/ReturnInstructionImpl.html
+END
+EclipseTACFieldTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACFieldTest.html
+END
+EclipseTACArrayTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACArrayTest.html
+END
+EclipseTACSimpleTestDriver.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/176/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseTACSimpleTestDriver.html
+END
+EclipseReferenceFieldAccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/236/trunk/CrystalPlugin/doc/edu/cmu/cs/crystal/tac/eclipse/class-use/EclipseReferenceFieldAccess.html
+END

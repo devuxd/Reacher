@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/319/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util
+END
+Copyable.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/171/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Copyable.java
+END
+ConsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/95/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/ConsList.java
+END
+Lambda3.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/267/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Lambda3.java
+END
+Lambda2.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/95/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Lambda2.java
+END
+Box.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Box.java
+END
+Utilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Utilities.java
+END
+SimpleMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/SimpleMap.java
+END
+Freezable.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Freezable.java
+END
+ExtendedIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/222/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/ExtendedIterator.java
+END
+Lambda.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/95/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Lambda.java
+END
+Triple.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Triple.java
+END
+TypeHierarchy.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/276/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/TypeHierarchy.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/95/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Pair.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/307/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/Option.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/223/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/package-info.java
+END
+VOID.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/270/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/VOID.java
+END
+CollectionMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/175/trunk/CrystalPlugin/src/edu/cmu/cs/crystal/util/CollectionMethods.java
+END
